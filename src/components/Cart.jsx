@@ -1,8 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import WOW from 'wowjs';
-import 'animate.css/animate.css';
-import 'wowjs/css/libs/animate.css';
+/* eslint-disable react/prop-types */
+import { Link } from "react-router-dom";
+import "animate.css/animate.css";
+import "wowjs/css/libs/animate.css";
 
 const Cart = ({ cart }) => {
   return (
